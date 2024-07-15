@@ -1,0 +1,94 @@
+/* Body */
+body {
+    background-color: #FFFFFF; /* Background color */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FF8F2C; /* Navbar background color */
+    border-bottom: 1px solid #EDEDED; /* Border color to separate navbar */
+}
+
+.navbar .nav-link {
+    color: #FFFFFF; /* Navbar link color */
+    font-weight: 500;
+}
+
+.navbar .dropdown-menu {
+    background-color: #FFFFFF; /* Dropdown menu background color */
+    color: #333333; /* Dropdown menu text color */
+    border: 1px solid #EDEDED; /* Border color for dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for dropdown */
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #333333; /* Dropdown item text color */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #F2F2F2; /* Hover color for dropdown items */
+}
+
+.navbar-toggler-icon {
+    background-color: #FFFFFF; /* Navbar toggle icon color */
+}
+
+/* Buttons */
+.btn-outline-light {
+    color: #000000; /* Button text color (changed to black) */
+    border-color: #FFFFFF; /* Button border color */
+}
+
+.btn-outline-light:hover {
+    color: #333333; /* Hover color for button text */
+    background-color: #FFFFFF; /* Hover background color */
+}
+
+/* Brand Image */
+.brand-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adjust brand image styling */
+}
+
+/* Cards */
+.card {
+    border: 1px solid #EDEDED; /* Border color for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+}
+
+/* Budget Range */
+#budgetRange {
+    background-color: #F25412; /* Background color of budget slider */
+    border-color: #F25412; /* Border color of budget slider */
+}
+
+/* Footer */
+footer {
+    background-color: #F2F2F2; /* Footer background color */
+    color: #333333; /* Footer text color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar .dropdown-menu {
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+}
+/* Search Button */
+.form-inline .btn.btn-outline-light {
+    position: relative;
+    transition: all 0.3s ease;
+    background-color: #FFFFFF; /* Button background color before hover */
+}
+
+.form-inline .btn.btn-outline-light:hover {
+    color: #FFFFFF; /* Change text color on hover */
+    background-color: #EA028B; /* Hover background color */
+    box-shadow: 0 0 10px #EA028B; /* Glow effect on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+}
